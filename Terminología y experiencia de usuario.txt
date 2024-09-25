@@ -1,0 +1,185 @@
+# Experiencia del usuario.
+
+# - Me presentan el P_Start.
+    # - Adjunto el File en un campo.
+        # - Como adjunté un documento .txt que no tiene el formato adecuado, me aparece un cartel diciéndome que no se puede seguir.
+        # - Me abre una pestaña que me redirige a una página que me especifica cómo debe ser el formato del archivo .txt.
+    # - Tengo la opción de destildar la casilla: Utilizar la configuración del P_Display por defecto.
+    # - Tengo la opción de destildar la casilla: Utilizar la configuración del P_Processing por defecto.
+    # - Tengo la opción de cambiar el formato de salida en una casilla desplegable con opciones.
+        # - No estoy registrado y el formato de salida, si no toco nada, es pdf.
+        # - Estoy registrado y el formato de salida, si no toco nada, es el que elegí por defecto.
+            # a) Elegí un archivo.
+                # - Tengo la opción de tildar la casilla: Guardar en archivos separados.
+                    # - Tildo la casilla y aparece una casilla desplegable con estas opciones: Author, Book, Year, Month, Day.
+                # - Me muestran que la ubicación dónde se guarda el archivo es la seleccionada por defecto. 
+                # - Sin embargo, puedo cambiarla apretando el botón "Guardar en".
+                    # - Apreto el botón y se me abre un Explorer, dónde selecciono la carpeta.
+                # - Me pregunta por el estilo del Block. Son 6: elijo uno.
+                # - Tengo la opción de seleccionar formato del Highlight y Sub_Line, por separado: N, I, S.
+                # - Tengo la opción de seleccionar fuente del Highlight y Sub_Line, por separado.
+                # - Tengo la opción de seleccionar color del Highlight y Sub_Line, por separado.
+                # - Tengo la opción de seleccionar tamaño de fuente del Highlight y Sub_Line, por separado.
+                # - Tengo la opción de seleccionar alineación del Highlight y Sub_Line, por separado.
+                # - Tengo la opción de definir el título del archivo resultante. Si no, se usa la de por defecto.
+            # b) Elegí Notion.
+    # - Tengo la opción de apretar un link de "¿Qué son los formatos de salida?" que abre un cartel explicativo.
+    # - Tengo la opción de "No entiendo nada: ¡Ayuda!" que me redirige a un video explicativo en YouTube.
+    # - Apreto el botón "Get Highlights".
+
+# - Me presentan el P_Display
+    # - No aparece si tildo la casilla del P_Start: Utilizar la configuración del P_Display por defecto.
+    # - Los Blocks están en el O_Order, donde puedo realizar el B_Sort.
+        # - Si no tengo, no me preguntan nada.
+        # - Tengo la opción de reordenar los Blocks por Author, Book, Date.
+        # - Tengo la opción de agrupar los Blocks en Clippings según el Author, Book, Day, Month, Year. 
+        # - Tengo la opción de unir determinados F_Blocks, formando un solo C_Block.
+            # - Se me consulta cuál de los Date de los F_Blocks quiero mantener en el C_Block.
+            # - Se me rechaza si quiero unir F_Blocks de distinto par Author-Block. 
+            # - Me pregunta si estoy seguro que quiero unirlos. Acepto.
+        # - Tengo la opción de dividir determinados F_Blocks, formando varios C_Block.
+            # - Me pregunta si estoy seguro que quiero dividirlos. Acepto.
+        # - Tengo la opción de eliminar determinados F_Blocks.  
+            # - Me pregunta si estoy seguro que quiero eliminarlo. Acepto.
+        # - Tengo la opción de cambiarle el nombre a los Clippings. Por defecto, es el del Author, Book, Day, Month o Period.
+        # - Tengo la opción de borrar Clippings.    
+            # - Me pregunta si estoy seguro que quiero eliminarlo. Acepto.
+        # - Tengo la opción de deshacer alguna operación hecha.
+    # - Tengo la opción de "No entiendo nada: ¡Ayuda!" que me redirige a un video explicativo en YouTube.
+    # - Apreto el botón de "Proceder con el F_Order".
+        # - Me aparece una vista previa con el F_Order.
+        # - Me pregunta si estoy seguro de que acepto (con la opción de que no pregunte más esto).
+        # - Me preguntan si quiero guardar la configuración del P_Display y que quede por defecto.
+
+# - Me presentan el P_Processing, donde se hace el H_Proccesing.
+    # - No aparece si tildo la casilla del P_Start: Utilizar la configuración del P_Proccesing por defecto.
+        # - Me aparece si es que algún Clipping no está en la base de datos de la configuración.
+    # - Me presentan una lista de Clippings (con su nombre), englobados en ítems desplegables.
+        # - Cada ítem contiene casillas de checkbox, tildadas de manera predeterminada (por el sistema o la config del usuario)
+            # - Tengo la opción de tildar la casilla: Cambiar la primera letra a mayúscula.
+            # - Tengo la opción de tildar la casilla: Borrar caracteres específicos.
+                # - Puedo ingresar los carácteres en un campo de texto.
+            # - Tengo la opción de de tildar la casilla: Cambiar el primer caracter "Letra" a mayúscula.
+            # - Tengo la opción de de tildar la casilla: Agregar signos (', ", <, (, ¿, ¡, «) faltantes.
+            # - Tengo la opción de apretar un botón que dice: Repetir patrón en todos los Clippings.
+            # - Tengo la opción de apretar un botón que dice: Guardar configuración para este Clipping.
+    # - Tengo la opción de: Aplicar el H_Processing por defecto a todos los Clippings.
+        # - Me pregunta si estoy seguro y me explica qué es lo que pasa. Acepto.
+    # - Tengo la opción de: "No entiendo nada: ¡Ayuda!" que me redirige a un video explicativo en YouTube.
+    # - Apreto el botón de: Acepto el H_Processing.
+        # - Me pregunta si estoy seguro de que acepto (con la opción de que no pregunte más esto).
+        # - Me preguntan si quiero guardar la configuración del P_Processing y que quede por defecto.
+
+# - Me presentan el P_Notion.
+    # - Si elegí como formato de salida algún archivo, no aparece.
+    # - Me aparece un botón que dice "Match".
+        # a) Ya configuré mi N_Account y mi N_Database anteriormente. 
+            # - Me aparece una pantalla con dos opciones: "Cambiar ubicación" o "Seguir".
+            # - Apreto "Cambiar ubicación" y me abre N_Explorer donde tengo que seleccionar mi nueva N_Database.
+        # b) Nunca configuré N_Account y mi N_Database
+            # - Me abre una página de inicio de sesión en mi N_Account.
+            # - Me pide que permita que el Client opere sobre las N_Pages.
+            # - Me abre un N_Explorer donde tengo que seleccionar la ubicación de mi N_Database. 
+    # - Me muestran una lista de N_Match con el nombre del Clipping y el de la N_Page correspondiente. Tienen botones.
+        # a) Se me muestra un botón que dice: "Crear nueva N_Page para este Clipping". Lo apreto.
+            # - Tengo la opción de seleccionar un emoji o ninguno.
+            # - Puedo escribir el Título de la N_Page.
+        # b) Se me muestra un botón que dice: "Seleccionar nueva ubicación". Lo apreto.
+            # - Se me abre un N_Explorer dónde selecciono la N_Page dónde el Clipping va a insertarse.
+            # - Me preguntan si quiero guardar este Match para más adelante.
+        # c) Se me muestra un botón que dice: "Seleccionar posición de Paste". Lo apreto.
+            # - Se me abre una lista desplegable con estas opciones son: Final, Principio, Personalized N_Block.
+                # - Seleccioné Personalized. Me abre N_Explorer y selecciono el N_Block específico dentro de la N_Page.
+        # d) Se me muestra un botón que dice: "Seleccionar formato del N_Block". Lo apreto.
+            # - Las opciones son: callout, paragraph, quote.
+            # - Tengo la opción de seleccionar formato: negrita, cursiva, subrayado, tachado.
+            # - Tengo la opción de seleccionar fuente.
+            # - Tengo la opción de seleccionar color.
+            # - Tengo la opción de seleccionar tamaño de fuente.
+            # - Tengo la opción de seleccionar alineación.
+            # - Tengo la opción de seleccionar color de fondo del N_Block.
+            # - Seleccioné callout. 
+                # - Tengo la opción de seleccionar un emoji o ninguno.
+            # - Tengo la opción de tildar la casilla: Aplicar formato a todos los N_Blocks de este Clipping.
+            # - Tengo la opción de tildar la casilla: Aplicar formato a todos los N_Blocks de todos los Clippings.
+            # - Tengo la opción de importar una configuración de N_Block desde la computadora.
+            # - Tengo la opción de exportar una configuración de N_Block a la computadora.
+            # - Me aparece una vista previa con el N_Block final.
+        # e) Los N_Match me aparecen de distintos colores.
+            # Verde: el Clipping fue correctament Matcheado.
+            # Rojo: no pudo Matchearse el Clipping y no va a ser Pasteado.
+    # - Tengo la opción de: Aplicar el formato de N_Blocks por defecto a todos los Clippings.
+        # - Me pregunta si estoy seguro y me explica qué es lo que pasa. Acepto.
+    # - Tengo la opción de "No entiendo nada: ¡Ayuda!" que me redirige a un video explicativo en YouTube.
+    # - Apreto un botón de "Aceptar destinos de Highlights".
+        # - Si hay N_Matchs en rojo, me advierte y puedo volver atrás.
+        # - Me pregunta si estoy seguro de que los N_Match son correctos y acepto (con la opción de que no pregunte más esto).
+
+# - Me presentan el P_End, donde se hace el Paste.
+    # - Tengo la opción de tildar la opción: Guardar la configuración actual y lo acepto.
+    # - Tengo la opción de abrir un cartel de resumen con los detalles de los Paste.
+    # - Me presentan el botón Finalizar y lo apreto.
+        # - Me pregunta si estoy seguro y lo acepto (con la opción de que no pregunte más esto)
+        # - Me muestran una barra con porcentaje que crece.
+        # - Cuando se completa, me aparece un cartel con un "Listo".
+
+
+# Configuración del usuario:
+    # - Nickname.
+    # - Avatar.
+    # - Mail.
+    # - Suscription.
+    # - Lista de Clippings guardados con sus nombres y configuraciones de H_Processing, Match y N_Block establecidas.
+    # - H_Processing por defecto.
+    # - N_Block por defecto.
+
+------------------------------------------------------------------------------------------------------------------------
+
+# Terminología.
+
+# Entidades.
+# - Client: es la aplicación que va a operar sobre las N_Accounts.
+# - Token: es un código de autenticación que tu aplicación usa para acceder a la API de Notion y realizar operaciones.
+# - Block: es la entidad que contiene los datos del Highlight, Author, Book, Date, y demás. Es un bloque. Cada Block es una fila del df.
+# - Highlight: es la frase extraída del Book, es decir, la frase recortada, y hay una por cada Block.
+# - Author: el autor que escribió el Highlight.
+# - Book: el libro del que se extrajo el Highlight.
+# - Date: la fecha en que se hizo el subrayado.
+# - Phrase: es la frase en el libro, que luego se extrae y se transforma en Highlight.
+# - F_Block: Blocks en los cuáles se opera y tienen C_Blocks.
+# - C_Block: surgen de las operaciones que se hacen en los F_Blocks.
+# - Clippings: grupos de Blocks.
+# - N_Block: bloques de Notion. Es una unidad específica dentro de las N_Page.
+# - N_Page: página de Notion. Es una entidad más amplia que los N_Blocks.
+# - N_Match: el conjunto o dúo, la conexión Clipping-N_Page, producto de un Match.
+# - N_Account: cuenta de Notion.
+# - Sub_Line: línea por debajo del Highlight cuando se exporta a archivo, que está compuesta por Author, Book o ambos.
+
+# Acciones.
+# - Cut: es la acción de subrayar una frase y transformarla en Highlight.
+# - B_Sort: acción de reordenar, agrupar, dividir y/o unir Blocks y transformar el O_Order en el F_Order.
+# - H_Processing: panel de procesamiento del contenido de los Highlights.
+# - Paste: pegado de los Blocks en el formato de salida.
+# - Match: ligar N_Page con Clipping.
+# - N_Ubication: el lugar específico (N_Page y N_Block) dónde se va a Paste cada Clipping.
+
+# Objetos.
+# - File: es el .txt que expide el Kindle y el usuario adjunta a la web. Es de dónde se van a extraer todos los datos.
+# - H_Database: es la database principal. Cada fila es un Block, y cada columna es un atributo del Block.
+# - N_Database: es la N_Page principal dónde están las N_Pages hijas dónde se van a pegar los Highlights.
+# - Explorer: explorador de archivos de la computadora.
+# - N_Explorer: explorador de páginas de Notion.
+
+# Página.
+# - P_Start: panel de inicio.
+# - P_Display: panel de representación visual de los Blocks, dónde puede realizarse el B_Sort.
+# - P_Process: panel dónde se realiza el H_Processing.
+# - P_Notion: panel dónde se elige el formato de salida de los Blocks, organizado por Clipping, en Notion.
+# - P_End: panel donde se hace el Paste final.
+# - O_Order: el orden establecido de los Blocks en el File.
+# - F_Order: el orden final de Blocks elegido por el usuario.
+
+# Ideas.
+# - 100 primeros usuarios gratis de por vida.
+# - Programa para escritorio.
+# - Video que expliquen el proceso completo.
