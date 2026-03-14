@@ -34,6 +34,9 @@ from Backend.App.Api.Clippings import (
 from Backend.App.Api.Processing import (
     Router_Processing,
 )
+from Backend.App.Api.Export import (
+    Router_Export,
+)
 
 
 @asynccontextmanager
@@ -98,6 +101,11 @@ App.include_router(
     Router_Processing,
     prefix="/api/processing",
     tags=["Processing"],
+)
+App.include_router(
+    Router_Export,
+    prefix="/api/export",
+    tags=["Export"],
 )
 
 
