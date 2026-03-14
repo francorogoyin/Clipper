@@ -40,6 +40,9 @@ from Backend.App.Api.Export import (
 from Backend.App.Api.Notion import (
     Router_Notion,
 )
+from Backend.App.Api.Rules import (
+    Router_Rules,
+)
 
 
 @asynccontextmanager
@@ -114,6 +117,11 @@ App.include_router(
     Router_Notion,
     prefix="/api/notion",
     tags=["Notion"],
+)
+App.include_router(
+    Router_Rules,
+    prefix="/api/rules",
+    tags=["Rules"],
 )
 
 
