@@ -31,6 +31,9 @@ from Backend.App.Api.Highlights import (
 from Backend.App.Api.Clippings import (
     Router_Clippings,
 )
+from Backend.App.Api.Processing import (
+    Router_Processing,
+)
 
 
 @asynccontextmanager
@@ -90,6 +93,11 @@ App.include_router(
     Router_Clippings,
     prefix="/api/clippings",
     tags=["Clippings"],
+)
+App.include_router(
+    Router_Processing,
+    prefix="/api/processing",
+    tags=["Processing"],
 )
 
 
