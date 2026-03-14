@@ -3,6 +3,18 @@
 App web para procesar resaltados de libros digitales
 y exportarlos a múltiples formatos. Público general.
 
+## Convenciones de código
+
+- **Pascal_Snake_Case en TODO**: variables, funciones,
+  clases, archivos, carpetas, claves de diccionarios.
+- Excepción: archivos que el framework exige con
+  nombre fijo (package.json, vite.config.ts,
+  __init__.py, alembic.ini, etc.).
+- Nombres descriptivos en español, sin abreviaciones.
+- Líneas de máximo 70 caracteres.
+- Docstrings exhaustivos con type hinting.
+- Comentarios descriptivos terminados en punto.
+
 ## Stack
 
 ### Frontend
