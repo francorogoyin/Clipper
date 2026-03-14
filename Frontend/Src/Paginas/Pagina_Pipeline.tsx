@@ -5,6 +5,8 @@
 
 import { Usar_Store_Pipeline } from "@/Stores/Store_Pipeline";
 import { Paso_P_Start } from "@/Componentes/Pipeline/Paso_P_Start";
+import { Paso_P_Display } from "@/Componentes/Pipeline/Paso_P_Display";
+import { Paso_P_Processing } from "@/Componentes/Pipeline/Paso_P_Processing";
 
 const Nombres_Pasos = [
   "Inicio",
@@ -39,16 +41,8 @@ export function Pagina_Pipeline() {
 
       {/* Paso actual. */}
       {Paso_Actual === 1 && <Paso_P_Start />}
-      {Paso_Actual === 2 && (
-        <div className="text-gray-500">
-          P_Display — próximamente
-        </div>
-      )}
-      {Paso_Actual === 3 && (
-        <div className="text-gray-500">
-          P_Processing — próximamente
-        </div>
-      )}
+      {Paso_Actual === 2 && <Paso_P_Display />}
+      {Paso_Actual === 3 && <Paso_P_Processing />}
       {Paso_Actual === 4 && (
         <div className="text-gray-500">
           P_Notion — próximamente
