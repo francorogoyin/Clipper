@@ -1,0 +1,40 @@
+# Python.
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.venv/
+venv/
+
+# Environment.
+.env
+.env.local
+
+# Node.
+node_modules/
+Frontend/Src/Componentes/Ui/*.tsx
+Frontend/Src/Componentes/Ui/*.ts
+
+# Build.
+Frontend/Dist/
+
+# IDE.
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS.
+.DS_Store
+Thumbs.db
+
+# Datos locales.
+Datos/*.json
+*.xlsx
+
+# Celery.
+celerybeat-schedule
+celerybeat.pid
